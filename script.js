@@ -5,11 +5,12 @@
     age: 21,
     from: "Mogilev",
 }
-console.log(obj); */
+*/
 
 
 // 2 
-/* let obj = {
+/* 
+let obj = {
     name: "Danik",
     age: 21,
     from: "Mogilev",
@@ -36,7 +37,7 @@ obj.sayHi = function () {
     return `Hello ${this.name}`;
 };
 
-obj.sum = () => a+b;
+obj.sum = () => a + b;
 console.log(obj.sayHi());
 console.log(obj.sum()); */
 
@@ -74,7 +75,6 @@ obj.outputObj();
     let result;
     for (let item in object) {
         if (typeof object[item] !== 'object') {
-
             result = false
         } else {
             result = true 
